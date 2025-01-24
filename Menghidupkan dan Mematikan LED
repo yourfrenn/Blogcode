@@ -1,0 +1,17 @@
+// Constants to set the pin numbers
+const int ledPin = 13;  // Salah satu pin LED
+void setup() {
+
+  // Mengenalkan LED sebagai output
+  pinMode(ledPin, OUTPUT);
+}
+
+void loop() {
+  // Menghidupkan LED
+  digitalWrite(ledPin, HIGH);
+  delay(1000);  // menunggu 1 detik (1000 milliseconds)
+
+  // Mematikan LED
+  digitalWrite(ledPin, LOW);
+  delay(1000);  // menunggu 1 detik
+}
